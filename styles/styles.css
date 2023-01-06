@@ -3,6 +3,15 @@
     font-family: 'Work Sans';
 }
 
+section {
+    display: flex;
+    margin: 50px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .btn-primary {
     margin-top: 32px;
     color: #005FAC;
@@ -11,10 +20,10 @@
     line-height: 23px;
     text-align: center;
     background: #FFFFFF;
-    border:0;
+    border: 0;
     border-radius: 5px;
-    padding:10px;
-    margin:10px 0px;
+    padding: 10px;
+    margin: 10px 0px;
 
 }
 
@@ -36,13 +45,15 @@ nav {
 
 li {
     list-style: none;
-    margin: 0px 10px;
+    margin: 16px 20px;
+
 }
-li :hover{
-    color:blue;
-    border:0;
-    background:#FFFFFF;
-    padding:10px;
+
+header li :hover {
+    color: blue;
+    border: 0;
+    background: #FFFFFF;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -59,11 +70,12 @@ a {
 }
 
 .banner-container {
-    width: 40%;
+    width: 35%;
     position: absolute;
     right: 0px;
+    bottom: -300px;
     text-align: right;
-    padding: 50px;
+    padding: 0px 50px;
 }
 
 .banner-title {
@@ -74,7 +86,42 @@ a {
 .banner-description {
     font-weight: 400;
     font-size: 16px;
-    padding-top: 24px;
+    padding: 50px 0px;
     color: #FFFFFF;
 
+}
+
+/* My-profile */
+.my-img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.failures-container {
+    width: 100%;
+    padding: 50px;
+    margin-top: 300px;
+    
+
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;
+
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+i{
+    font-size: 16px;
+    font-weight: 300;
+    color:#16D887;
+    padding-right: 10px;
 }
