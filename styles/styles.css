@@ -3,7 +3,7 @@
     font-family: 'Work Sans';
 }
 
-section{
+section {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 200px;
@@ -27,7 +27,7 @@ section{
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0px;
-
+    margin-left: 60px;
 }
 
 /* Header-part */
@@ -134,10 +134,12 @@ i {
     color: #16D887;
     padding-right: 10px;
 }
-.plan{
+
+.plan {
     text-align: center;
-    margin:60px 0px;
+    margin: 60px 0px;
 }
+
 .plan-title {
     font-weight: 700;
     font-size: 30px;
@@ -147,5 +149,26 @@ i {
 .plan-description {
     font-weight: 500;
     font-size: 25px;
-    color:#737272;
+    color: #737272;
+}
+
+/* Positive mindset part */
+.positive-mindset {
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    /* background-blend-mode: lighten; */
+    background-blend-mode: hard-light;
+    padding: 100px 0px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:1;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 460px;
+    color: #FFFFFF;
+    padding:0px 60px;
+    z-index:inherit;
 }
